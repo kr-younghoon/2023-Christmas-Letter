@@ -1,3 +1,5 @@
+import BtnNextTo from '../assets/svg/btn-next-to';
+
 function Home() {
     return (
         <>
@@ -9,6 +11,7 @@ function Home() {
                 <a href="/2">트리 꾸미기</a>
             </button>
             <button>공유하기</button>
+            <BtnNextTo />
         </>
     );
 }

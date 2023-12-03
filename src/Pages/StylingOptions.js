@@ -1,6 +1,7 @@
 function StylingOptions() {
     return (
         <>
+            <a href="/">뒤로가기</a>
             <button>(svg로 대체할 예정)</button>
             <p>어떤 장식이 좋을까?</p>
 
@@ -11,7 +12,9 @@ function StylingOptions() {
             <label htmlFor="female">🥲</label>
 
             <br />
-            <button>다음으로</button>
+            <button>
+                <a href="/3">다음으로</a>
+            </button>
         </>
     );
 }
