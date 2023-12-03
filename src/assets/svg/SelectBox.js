@@ -9,8 +9,8 @@ function SelectBox() {
                 xmlns="http://www.w3.org/2000/svg"
             >
                 <g filter="url(#filter0_bd_76_692)">
-                    <g clip-path="url(#clip0_76_692)">
-                        <g clip-path="url(#clip1_76_692)">
+                    <g clipPath="url(#clip0_76_692)">
+                        <g clipPath="url(#clip1_76_692)">
                             <rect
                                 width="920"
                                 height="920"
@@ -1540,12 +1540,9 @@ function SelectBox() {
                         width="368"
                         height="477"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                             in="BackgroundImageFix"
                             stdDeviation="10"
