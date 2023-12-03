@@ -1,8 +1,21 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Home from './Pages/Home';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import StylingOptions from './Pages/StylingOptions';
 
 function App() {
-    return <></>;
+    return (
+        <>
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/2" element={<StylingOptions />} />
+                </Routes>
+            </Router>
+            ;
+        </>
+    );
 }
 
 export default App;
