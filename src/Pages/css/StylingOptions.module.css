@@ -1,0 +1,11 @@
+.selectBox {
+    background: url('../../assets/svg/Group\ 50.svg') center/cover no-repeat;
+    display: flex;
+    width: 318px;
+    height: 423px;
+}
+
+.selectBox_Btn {
+    padding: 24px 23px;
+    gap: 1px;
+}
