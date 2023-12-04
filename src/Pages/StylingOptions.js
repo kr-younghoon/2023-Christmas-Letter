@@ -1,15 +1,7 @@
 import Radio from '../Components/Button/Radio';
-// import SelectBox from '../assets/svg/SelectBox';
 import styles from './css/StylingOptions.module.css';
 
 function StylingOptions() {
-    const handleOptionChange = (e) => {
-        const selectedValue = e.target.value;
-
-        // 선택된 상태에 따라 원하는 동작을 수행할 수 있습니다.
-        console.log(`Selected Option: ${selectedValue}`);
-    };
-
     return (
         <>
             <a href="/">뒤로가기</a>
@@ -34,15 +26,98 @@ function StylingOptions() {
                     <div className={styles.selectBG}>
                         <div className={styles.selectBox_Btn}>
                             <Radio
-                                id="option1"
+                                name="🥲"
+                                value="🥲"
                                 emoge="🥲"
-                                onChange={handleOptionChange}
+                                defaultChecked
                             />
-                            <Radio
-                                id="option1"
-                                emoge="🥲"
-                                onChange={handleOptionChange}
-                            />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
+                            <Radio name="🥲" value="🥲" emoge="🥲" />
                         </div>
                     </div>
                 </div>
