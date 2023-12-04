@@ -1,10 +1,18 @@
 import styles from './Radio.module.css';
 
-function RadioBoxBtn({ emoge, id, onChange }) {
+function RadioBoxBtn({ emoge, value, defaultChecked, disabled, name }) {
     return (
         <div className={styles.checkbox_radio}>
-            <input type="radio" id={id} onChange={onChange} />
-            <label htmlFor={id}>{emoge}</label>
+            <label>
+                <input
+                    type="radio"
+                    value={value}
+                    name={name}
+                    defaultChecked={defaultChecked}
+                    disabled={disabled}
+                />
+                {emoge}
+            </label>
         </div>
     );
 }

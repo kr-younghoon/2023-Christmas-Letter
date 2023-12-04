@@ -1,6 +1,6 @@
 .checkbox_radio input {
-    opacity: 0; /* 텍스트 클릭 시 선택되게 하기 위해 투명도를 0으로 설정 */
-    position: absolute; /* 텍스트와 겹치도록 절대 위치 지정 */
+    opacity: 0;
+    position: absolute;
 }
 
 .checkbox_radio {
