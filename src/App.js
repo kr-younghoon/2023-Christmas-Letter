@@ -8,7 +8,7 @@ import WritingLetter from './Pages/WritingLetter';
 function App() {
     return (
         <>
-            <Router>
+            <Router basename="/">
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/2" element={<StylingOptions />} />
