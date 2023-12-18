@@ -25,24 +25,11 @@
 }
 
 .selectBox_Btn {
-    margin: 12px 0px;
+    margin: 12px 6px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: normal;
-    align-content: flex-start;
-    /* width: 50px; */
-    /* height: 50px; */
-    /* padding: 12px 13px; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* border-radius: 8px; */
-    /* background-color: rgba(0, 0, 0, 0.05); */
     gap: 1px;
     /* 스크롤 hide */
-    overflow-y: scroll;
-    ::-webkit-scrollbar {
-        display: none;
-        width: 0px;
-    }
+    overflow-y: auto;
+    scroll-behavior: smooth;
 }
