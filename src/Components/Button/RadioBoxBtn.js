@@ -1,13 +1,19 @@
 import React from 'react';
 import styles from './RadioBoxBtn.module.css';
 
-function RadioBoxBtn({ emoji, value, isSelected, disabled, name, onClick }) {
+function RadioBoxBtn({ emoji, value, isSelected, disabled, name, onChange }) {
+    const handleClick = () => {
+        if (!isSelected) {
+            onChange(value);
+        }
+    };
+
     return (
         <div
             className={`${styles.checkbox_radio} ${
                 isSelected ? styles.selected : ''
             }`}
-            onClick={() => onClick(value)}
+            onClick={handleClick}
         >
             <label>
                 <input
