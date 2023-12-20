@@ -1,0 +1,21 @@
+.jbody {
+    display: flex;
+    width: 121px;
+    height: 139.529px;
+    flex-shrink: 0;
+    z-index: 0;
+}
+
+.jarms {
+    display: flex;
+    width: 22.941px;
+    height: 18.529px;
+    margin-top: 96px;
+    margin-left: -94px;
+    z-index: 2;
+    gap: 42px;
+}
+
+/* .jarms img {
+    background: url(./Rectangle.png), lightgray 0px 0px / 100% 100% no-repeat;
+} */
