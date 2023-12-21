@@ -1,5 +1,5 @@
 import styles from './Jehovah.module.css';
-let JehovahPNG = require('./jesus-1-02 1.png');
+let JehovahPNG = require('./layer-jbody.png');
 let RectanglePNG = require('./Rectangle.png');
 
 function Jehovah() {
