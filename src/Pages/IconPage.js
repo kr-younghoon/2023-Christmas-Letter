@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './css/StylingOptions.module.css';
+import styles from './css/IconPage.module.css';
 import RadioBoxBtn from '../Components/Button/RadioBoxBtn';
 import BtnBackspace from '../assets/svg/BtnBackSpace';
 import Jehovah from '../assets/img/Jehovah';

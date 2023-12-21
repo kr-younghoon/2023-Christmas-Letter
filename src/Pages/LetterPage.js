@@ -1,8 +1,8 @@
 import Jehovah from '../assets/img/Jehovah';
 import BtnBackspace from '../assets/svg/BtnBackSpace';
-import styles from './css/WritingLetter.module.css';
+import styles from './css/LetterPage.module.css';
 
-function WritingLetter() {
+function LetterPage() {
     return (
         <>
             <div className={styles.page}>
@@ -45,4 +45,4 @@ function WritingLetter() {
     );
 }
 
-export default WritingLetter;
+export default LetterPage;
