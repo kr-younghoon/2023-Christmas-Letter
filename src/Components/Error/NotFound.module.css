@@ -1,4 +1,4 @@
-h1 {
+.notfoundstyle h1 {
     color: rgba(0, 0, 0, 0.35);
     text-align: center;
     font-family: Elice DigitalBaeum OTF;
@@ -8,7 +8,7 @@ h1 {
     line-height: 24px; /* 120% */
 }
 
-img {
+.notfoundstyle img {
     width: 228px;
     height: 227px;
 }
