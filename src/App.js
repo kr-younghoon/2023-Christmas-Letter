@@ -10,8 +10,8 @@ function App() {
             <Router basename="/">
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/2" element={<LetterPage />} />
-                    <Route path="/3" element={<IconPage />} />
+                    <Route path="/2" element={<IconPage />} />
+                    <Route path="/3" element={<LetterPage />} />
                 </Routes>
             </Router>
         </>

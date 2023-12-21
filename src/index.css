@@ -1,16 +1,15 @@
 @font-face {
     font-family: 'EliceDigitalBaeum-Bd';
-    src: url('./assets/font/EliceDigitalBaeumOTF_Regular.otf')
-            format('opentype'),
-        url('./assets/font/EliceDigitalBaeumOTF_Bold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2')
+        format('woff2');
+    font-weight: bold;
+    font-style: bold;
 }
 
 @font-face {
     font-family: 'Cafe24Ssurround';
-    src: url('./assets/font/Cafe24Ssurround-v2.0.woff2') format('woff2'),
-        url('./assets/font/Cafe24Ssurround-v2.0.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff')
+        format('woff');
     font-weight: normal;
     font-style: normal;
 }
