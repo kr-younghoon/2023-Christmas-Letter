@@ -34,6 +34,10 @@ React를 통한 크리스마스 편지 보내기 웹사이트를 구현하였습
 
 -   `firebase init` 이후에 public을 default로 선택할 수 있는 항목이 있다. 거기에서 public 으로 가면 안되고 build로 가야한다. 만약 잘못했다면, `firebase.json`에서 `"public": "public"` 이라고 되어 있는 것을 `"public": "build"`로 바꿔야 한다.
 
+#### [2. 404 페이지를 만들 때?](https://anerim.tistory.com/226#google_vignette)
+
+- `<Route path="/*" element={<NotFound/>} />` 이런식으로 /*을 해줘야한다. 원래는 switch를 통해 `path` 없이 해줘도 됐었지만, react-router-dom 버전이 올라감에 따라 switch 가 사라지게 되었다.
+
 ### 나중에 봐야하는 것들.
 
 #### [1. 좌석지정 구현할때..](https://chat.openai.com/share/f62abc30-d8e5-4031-9329-0699eb3017f6)
