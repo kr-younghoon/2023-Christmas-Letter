@@ -18,17 +18,17 @@ React를 통한 크리스마스 편지 보내기 웹사이트를 구현하였습
 
 ### commit convention
 
-feat : 기능 개발
-fix : 버그 수정 - 수정 이유와 수정 내역
-refactor : 기능 변경이 없는 코드 수정 (예: 변수명 수정) - 수정 이유와 수정 내역
-test : 테스트 코드 작성 및 수정
-docs : 문서 작성 및 수정
-build : 빌드 파일 작성 및 수정
-style : 스타일 변경(reformat, indent)
-setting: 개발 환경 설정
-chore : 단순한 작업 (예: 파일 경로)
+- feat : 기능 개발
+- fix : 버그 수정 - 수정 이유와 수정 내역
+- refactor : 기능 변경이 없는 코드 수정 (예: 변수명 수정) - 수정 이유와 수정 내역
+- test : 테스트 코드 작성 및 수정
+- docs : 문서 작성 및 수정
+- build : 빌드 파일 작성 및 수정
+- style : 스타일 변경(reformat, indent)
+- setting: 개발 환경 설정
+- chore : 단순한 작업 (예: 파일 경로)
 
-### - 하면서 알게 된 이슈
+### 하면서 알게 된 이슈
 
 #### [1. 파이어베이스 빌드 이후 빈 화면](https://velog.io/@jisang8255/REACTfirebase..%EB%B0%B0%ED%8F%AC%ED%96%88%EB%8A%94%EB%8D%B0...%EB%B9%88-%ED%99%94%EB%A9%B4)
 
