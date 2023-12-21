@@ -114,6 +114,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
 }
 
 .nextBtn a {
