@@ -15,7 +15,7 @@ function StylingOptions() {
     const handleRadioClick = (value, e) => {
         setSelectEmoji(value);
         setDisabled(true);
-        console.log('handleRadioClickEvent');
+        console.log(`${value}`);
     };
 
     return (
@@ -26,8 +26,10 @@ function StylingOptions() {
                         <BtnBackspace />
                     </a>
                 </div>
-                <div className={styles.pageMidLine}>
-                    <Jehovah />
+                <div className={styles.pageInline}>
+                    <div className={styles.pageMidLine}>
+                        <Jehovah />
+                    </div>
                     <div className={styles.title}>
                         <p className={styles.title_head}>어떤 장식이 좋을까?</p>
                         <p className={styles.title_sub}>장식을 골라주세요.</p>
