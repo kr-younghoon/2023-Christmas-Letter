@@ -45,7 +45,7 @@ function LetterPage() {
                     </div>
                 </div>
                 <button className={styles.nextBtn}>
-                    <a href="/3">다음으로</a>
+                    <a href="/4">다음으로</a>
                 </button>
             </div>
         </>
