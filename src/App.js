@@ -13,6 +13,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/2" element={<IconPage />} />
                     <Route path="/3" element={<LetterPage />} />
+                    <Route path="/4" element={<LetterPage />} />
                     <Route path="/*" element={<NotFound />} />
                 </Routes>
             </Router>
