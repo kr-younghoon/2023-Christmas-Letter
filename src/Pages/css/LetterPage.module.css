@@ -40,6 +40,7 @@
     border-radius: 8px;
     flex-direction: column;
     padding: 19px 11px;
+    overflow-y: hidden;
 }
 
 .pageMidLine {
@@ -148,6 +149,7 @@ p {
     color: #000;
     font-family: 'EliceDigitalBaeum-Bd';
     font-size: 12px;
+    margin-bottom: 4px;
 }
 
 .page3_input_comp {
@@ -184,6 +186,7 @@ p {
 .page3_input_comp textarea {
     width: 240px;
     height: 263px;
+
     display: flex;
     padding: 12px 20px;
     flex-direction: column;
