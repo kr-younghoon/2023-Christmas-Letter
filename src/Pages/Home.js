@@ -1,17 +1,27 @@
 import BtnNextTo from '../assets/svg/btn-next-to';
+import styles from './css/Home.module.css';
+import tree from '../../src/assets/img/Frame 273.png';
+import ShareButton from '../Components/Button/ShareButton';
 
 function Home() {
     return (
         <>
-            <h1>jesembler tree</h1>
-            <p>
-                <img src="" alt="트리" />
-            </p>
-            <button>
-                <a href="/2">트리 꾸미기</a>
-            </button>
-            <button>공유하기</button>
-            <BtnNextTo />
+            <div className={styles.bg}>
+                <div className={styles.home_flex_line}>
+                    <div className={styles.home_title}>
+                        <p>Merry Christmas!</p>
+                    </div>
+                    <div className={styles.tree_img}>
+                        <img src={tree} alt="트리" />
+                    </div>
+                    <div className={styles.btn_line}>
+                        <a href="/2">
+                            <BtnNextTo />
+                        </a>
+                        <ShareButton />
+                    </div>
+                </div>
+            </div>
         </>
     );
 }
