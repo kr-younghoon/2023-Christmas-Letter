@@ -1,0 +1,140 @@
+.page {
+    width: 360px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.selectBox {
+    background: url('../../assets/svg/pattern\ BG.svg') center/cover no-repeat;
+    display: flex;
+    width: 328px;
+    height: 433px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    /* margin-top: -34px; */
+    margin: -40px auto 63px;
+    z-index: 1;
+}
+
+.selectBG {
+    overflow-y: auto;
+    display: flex;
+    /* margin: 19px 18px 28px 18px; */
+    width: 318px;
+    height: 423px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.selectBox_Btn {
+    margin: 7px 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    /* 스크롤 hide */
+    scroll-behavior: smooth;
+    border-radius: 8px;
+}
+
+.pageMidLine {
+    display: flex;
+    margin-left: 16px;
+}
+
+.header {
+    margin-top: 17px;
+    position: absolute;
+    top: 0;
+    padding: 8px 20px;
+}
+
+.header a {
+    display: flex;
+    /* width: 360px; */
+    /* gap: 10px; */
+    width: 28px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.title {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    margin-left: 80px;
+}
+
+.title p {
+    margin: 0px;
+}
+
+.title_head {
+    color: #413535;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'EliceDigitalBaeum-Bd';
+}
+
+.title_sub {
+    color: #397737;
+    font-size: 13px;
+    font-family: 'EliceDigitalBaeum-Bd';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 138.462% */
+}
+
+.nextBtn {
+    display: flex;
+    width: 361px;
+    height: 76px;
+    padding: 0px 29px 4px 29px;
+    justify-content: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #ab312a;
+    box-shadow: 0px -8px 24px 0px rgba(43, 20, 4, 0.6) inset;
+
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+}
+
+.nextBtn a {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 2px 3px rgba(35, 37, 41, 0.15);
+    font-family: 'Cafe24Ssurround';
+    font-size: 28px;
+    line-height: normal;
+    margin: auto;
+
+    text-decoration: none; /* 밑줄 제거 */
+    cursor: auto;
+}
+
+.pageInline {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 3px;
+    margin-top: 61px;
+}
