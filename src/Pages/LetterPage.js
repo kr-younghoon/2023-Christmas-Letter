@@ -26,13 +26,20 @@ function LetterPage() {
                         {/* <SelectBox /> */}
                         <div className={styles.selectBG}>
                             <div className={styles.selectBox_Btn}>
-                                <div>작성자 이름</div>
-                                <input
-                                    type="text"
-                                    value={`작성자 이름`}
-                                ></input>
-                                <div>내용</div>
-                                <input type="text" value={`편지 내용`}></input>
+                                <div className={styles.page3_input_comp}>
+                                    <p>작성자 이름</p>
+                                    <input
+                                        type="text"
+                                        placeholder="작성자 이름"
+                                    ></input>
+                                </div>
+                                <div className={styles.page3_input_comp}>
+                                    <p>내용</p>
+                                    <textarea
+                                        type="text"
+                                        placeholder="편지 내용"
+                                    ></textarea>
+                                </div>
                             </div>
                         </div>
                     </div>
