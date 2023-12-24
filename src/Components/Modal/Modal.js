@@ -16,8 +16,24 @@ function Modal({ seatData, onClose }) {
                         {/* <SelectBox /> */}
                         <div className={styles.selectBG}>
                             <div className={styles.selectBox_Btn}>
-                                <h2>from. {name}</h2>
-                                <p>{content}</p>
+                                <div className={styles.message_page}>
+                                    <h2>from. {name}</h2>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="240"
+                                        height="2"
+                                        viewBox="0 0 240 2"
+                                        fill="none"
+                                    >
+                                        <path
+                                            d="M0 1H240"
+                                            stroke="black"
+                                            stroke-opacity="0.25"
+                                            stroke-width="0.5"
+                                        />
+                                    </svg>
+                                    <p>{content}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
