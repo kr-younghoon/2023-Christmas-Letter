@@ -14,12 +14,26 @@
     margin-top: -10px;
 }
 
-.tree_img img {
+.tree_img {
     display: flex;
     width: 360px;
     height: 634px;
     /* padding-top: 1px; */
     margin: 30px auto 0;
+    background: url(../../assets/img/Frame\ 273.png);
+}
+.seatContainer {
+    margin: 106px 22px;
+    display: flex;
+    width: 316px;
+    height: 422px;
+    padding: 12px 2px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 4px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .home_title {
@@ -52,4 +66,19 @@
     align-items: center;
     flex-direction: column;
     /* flex-wrap: wrap; */
+}
+
+.seatButton {
+    display: flex;
+    width: 26px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+}
+
+.seatContainer img {
+    width: 24px;
+    height: 24px;
 }
