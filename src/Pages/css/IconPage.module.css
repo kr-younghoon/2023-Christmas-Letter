@@ -117,19 +117,19 @@
     z-index: 5;
     position: absolute;
     bottom: 0;
-}
 
-.nextBtn a {
     color: #fff;
     text-align: center;
     text-shadow: 1px 2px 3px rgba(35, 37, 41, 0.15);
     font-family: 'Cafe24Ssurround';
     font-size: 28px;
     line-height: normal;
-    margin: auto;
-
+    align-items: center;
     text-decoration: none; /* 밑줄 제거 */
     cursor: auto;
+}
+
+.nextBtn a {
 }
 
 .pageInline {
