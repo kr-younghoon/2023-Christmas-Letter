@@ -1,6 +1,6 @@
 import BtnNextTo from '../assets/svg/btn-next-to';
 import styles from './css/Home.module.css';
-// import tree from '../../src/assets/img/Frame 273.png';
+import tree from '../../src/assets/img/tree.png';
 import ShareButton from '../Components/Button/ShareButton';
 import { useEffect, useState } from 'react';
 import db from '../firebase';
@@ -53,40 +53,43 @@ function Home() {
                     <div className={styles.home_title}>
                         <p>Merry Christmas!</p>
                     </div>
-                    <div className={styles.tree_img}>
-                        <div>{/* <img src={tree} alt="트리" /> */}</div>
-                        <div className={styles.seatContainer}>
-                            {seatNumbers.map((seatNumber) => {
-                                // 해당 좌석에 매칭된 데이터 찾기
-                                const matchingSeat = seats.find(
-                                    (seat) => seat.seatNumber === seatNumber
-                                );
+                    <div className={styles.home_btn}>
+                        <div className={styles.tree_img}>
+                            {/* <img src={tree} alt="트리" /> */}
 
-                                return (
-                                    <button
-                                        key={seatNumber}
-                                        className={styles.seatButton}
-                                        onClick={() =>
-                                            handleSeatClick(seatNumber)
-                                        }
-                                        disabled={!matchingSeat} // 매칭되지 않은 좌석은 비활성화
-                                    >
-                                        {matchingSeat ? (
-                                            <img
-                                                className={styles.setEmoji}
-                                                src={matchingSeat.icon}
-                                                alt="이모지"
-                                            />
-                                        ) : null}
-                                        {/* {`${seatNumber}`} */}
-                                    </button>
-                                );
-                            })}
+                            <div className={styles.seatContainer}>
+                                {seatNumbers.map((seatNumber) => {
+                                    // 해당 좌석에 매칭된 데이터 찾기
+                                    const matchingSeat = seats.find(
+                                        (seat) => seat.seatNumber === seatNumber
+                                    );
+
+                                    return (
+                                        <button
+                                            key={seatNumber}
+                                            className={styles.seatButton}
+                                            onClick={() =>
+                                                handleSeatClick(seatNumber)
+                                            }
+                                            disabled={!matchingSeat} // 매칭되지 않은 좌석은 비활성화
+                                        >
+                                            {matchingSeat ? (
+                                                <img
+                                                    className={styles.setEmoji}
+                                                    src={matchingSeat.icon}
+                                                    alt="이모지"
+                                                />
+                                            ) : null}
+                                            {/* {`${seatNumber}`} */}
+                                        </button>
+                                    );
+                                })}
+                            </div>
+                            <Modal
+                                seatData={selectedSeat}
+                                onClose={handleCloseModal}
+                            />
                         </div>
-                        <Modal
-                            seatData={selectedSeat}
-                            onClose={handleCloseModal}
-                        />
                     </div>
                     <div className={styles.btn_line}>
                         <Link to="/2">

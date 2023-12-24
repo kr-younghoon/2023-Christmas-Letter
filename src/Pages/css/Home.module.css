@@ -16,12 +16,22 @@
 
 .tree_img {
     display: flex;
+    position: relative;
     width: 360px;
     height: 634px;
     /* padding-top: 1px; */
     margin: 30px auto 0;
-    background: url(../../assets/img/Frame\ 273.png);
+    background: url(../../assets/img/tree.png);
+    background-size: cover; /* Optional: Adjust based on your requirements */
+    background-position: center center;
 }
+
+.tree_img img {
+    width: 360px;
+    height: 634px;
+    z-index: 1;
+}
+
 .seatContainer {
     margin: 106px 22px;
     display: flex;
