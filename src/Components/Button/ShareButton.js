@@ -39,7 +39,7 @@ const ShareButton = () => {
                     onCopy={handleCopy}
                 >
                     <div className={styles.ShareButton}>
-                        <button>공유하기</button>
+                        <button>링크복사</button>
                     </div>
                 </CopyToClipboard>
             )}
